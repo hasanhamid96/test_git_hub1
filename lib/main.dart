@@ -13,7 +13,14 @@ class MyApp extends StatelessWidget {
       title: "hello",
       home: Container(
         child: Center(
-          child: Text('hello world!!'),
+          child: Column(
+            children: [
+              Text('hello world!!'),
+              Text('hello world!!'),
+              Text('hello world!!'),
+              Text('hello world!!'),
+            ],
+          ),
         ),
       ),
     );
