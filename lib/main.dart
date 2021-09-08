@@ -7,6 +7,9 @@ runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+
+
+  void test(){}
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,7 +19,9 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               Text('hello world!!'),
-              Text('hello world!!'),
+
+              Container(width: 300,),
+              Text('hello worlffd!!'),
               Text('hello world!!'),
               Text('hello world!!'),
             ],
